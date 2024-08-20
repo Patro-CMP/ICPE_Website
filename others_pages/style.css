@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Georgia;
+    background: rgba(231, 170, 14, 0.2);
+    position: relative;
+}
+/* ////////////////////------HEADER------/////////////// */
+.inner{
+    background-color: rgb(240, 248, 255);
+    height: 2rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.inner #initiative, #protection{
+    font-family:cursive;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px rgb(0, 174, 255);
+}
+.navbar-nav li a{
+    font-weight: bold;
+}
+.navbar-nav li a:hover{
+    font-size: 18px;
+    background-color: orange;
+    border-radius: 50%;
+    transition-duration: 0.7s;
+}
+
+div#navbarNav nav.navbar-nav .nav-item .nav-link .dropdown .dropdown-menu :focus{
+    color: white;
+}
+#btn .dropdown-toggle span{
+    color:black;
+    font-size: 20px;
+}
+#btn .dropdown-toggle span:hover{
+    color:white;
+}
+/* ////////////////////------MAIN------/////////////// */
+main{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* -------------------INDEX-----------*/
+section .welcome{
+    text-align: center;
+}
+.wrapper .mission h1{
+    text-align: center;
+}
+.wrapper .mission p{
+    font-size: 20px;
+    border: 4px solid rgba(0, 208, 255, 0.597);
+    background-color: rgba(244, 190, 90, 0.368);
+}
+
+/* @keyframes anim {
+    
+} */
+/* .row{
+    padding-top: 25px;
+} */
+/* .card{
+    margin: 0.2rem;
+    background-color: rgba(7, 135, 247, 0.603);
+    border-radius: 10px; 
+}*/
+/* . :hover{
+    transform: scale(1.04);
+    transition: 2s;
+} */
+
+/* --------------ARCHIVES ----------------------- */
+.archives{
+    border: 3px dotted rgb(0, 174, 255);
+    border-left: none;
+    border-right: none;
+    width:100%;
+}
+.archives h1{
+    background-color: rgb(0, 174, 255);
+    font-weight: bold;
+}
+
+.archives .col-sm-4 img{
+    border-radius: 20%;
+    transition: 4s;
+}
+
+/* --------------Partnership ----------------------- */
+section.section-programs{
+    border: 3px dotted rgb(0, 174, 255);
+    background-color: rgba(244, 190, 90, 0.368);
+}
+section.section-programs h1{
+    background-color: rgb(0, 174, 255);
+    font-weight: bold;
+}
+section.section-programs p{
+    font-size: 1.2rem;
+}
+section div.row .col-sm-4 img{
+    border-radius: 50%;
+}
+
+/* --------------ABOUT_US ----------------------- */
+section.contact-us{
+    position: relative;
+}
+section.contact-us div p{
+    font-size: 1.28rem;
+}
+section.contact-us form.was-validated{
+    background-color: #00aeff;
+    border-radius: 4%;
+}
+section.contact-us form.was-validated input[type='submit']{
+    border-radius: 50%;
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section.contact-us .get-involved h1{
+    text-align: center;
+}
+.get-involved .requirements{
+    border: 3px dotted rgb(0, 174, 255);
+    background-color: rgba(244, 190, 90, 0.368);
+}
+section.bottom-photo{
+    margin-top: 7.5%;
+}
+/* __________________LOG_IN_VIEW PAGE_______________________ */
+.main-authentifier div.d-flex{
+    width: 100%;
+    position: relative;
+    margin-bottom: 30%;
+}
+.main-authentifier div.d-flex form div.card{
+    background-color: rgba(0, 174, 255, 0.582);
+    position: absolute;
+    margin-top: 25%;
+    z-index: 2;
+    width: 35%;
+    right: 15%;
+}
+
+/* __________________VIEW_BLOG_______________________ */
+
+.eye-icon {
+    cursor: pointer;
+    margin-left: -30px;
+}
+/* ////////////////////------MEDIA SCREEN------/////////////// */
+
+/* __________________INDEX_PUBLIC_VIEW_______________________ */
+.index-top div.rounded-pill{
+    padding: 60px;
+}
+/* __________________LOG IN_______________________ */
+
+@media screen and (max-width:576px) {
+
+    .main-authentifier div.d-flex{
+        width: 100%;
+        position: relative;
+        margin-bottom: 70%;
+    }
+    .main-authentifier div.d-flex img{
+        width: 70%;
+    }
+    .main-authentifier div.d-flex form div.card{
+        background-color: rgba(0, 174, 255, 0.582);
+        position: absolute;
+        margin-top: 52%;
+        z-index: 2;
+        width: 100%;
+        left: 1%;
+    }
+}
+
+/* ------------Blog------------- */
+@media screen and (max-width:700px) {
+    .blog .inner{
+        background-color: rgb(240, 248, 255);
+        height: 6rem;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        display: inline-block;
+        padding: 10px;
+    }
+    .blog .inner #initiative, #protection{
+        font-family:cursive;
+        color: orange;
+        font-size: 1.2rem;
+        -webkit-text-stroke: 0.5px rgb(0, 174, 255);
+    }
+}
+
+/* ------------Blog------------- */
+@media screen and (max-width:650px){
+    main.partnership {
+        margin-top:100px;
+    }
+}
+
+/* ////////////////////------FOOTER------/////////////// */
+#footer{
+    background: rgba(36, 166, 209, 0.75);
+    font-weight: bold;
+    color: white;
+}
